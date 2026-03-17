@@ -1,31 +1,19 @@
-## 🎓 Pragmatic AI Labs | Join 1M+ ML Engineers
-
-### 🔥 Hot Course Offers:
-* 🤖 [Master GenAI Engineering](https://ds500.paiml.com/learn/course/0bbb5/) - Build Production AI Systems
-* 🦀 [Learn Professional Rust](https://ds500.paiml.com/learn/course/g6u1k/) - Industry-Grade Development
-* 📊 [AWS AI & Analytics](https://ds500.paiml.com/learn/course/31si1/) - Scale Your ML in Cloud
-* ⚡ [Production GenAI on AWS](https://ds500.paiml.com/learn/course/ehks1/) - Deploy at Enterprise Scale
-* 🛠️ [Rust DevOps Mastery](https://ds500.paiml.com/learn/course/ex8eu/) - Automate Everything
-
-### 🚀 Level Up Your Career:
-* 💼 [Production ML Program](https://paiml.com) - Complete MLOps & Cloud Mastery
-* 🎯 [Start Learning Now](https://ds500.paiml.com) - Fast-Track Your ML Career
-* 🏢 Trusted by Fortune 500 Teams
-
-Learn end-to-end ML engineering from industry veterans at [PAIML.COM](https://paiml.com)
-
-![Python application test with Github Actions](https://github.com/noahgift/github-actions-demo/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg)
-
-# github-actions-demo
-This is a repo for building out Github Actions and Tricks.  I test multiple clouds and multiple versions of Python.
+# gcp-flask-ml-deploy
+This is a project to auto-deploy with an ML payload
 
 
-[Demo Video of this repo](https://www.youtube.com/watch?v=4gbUYOgALik)
+[YouTube Walkthrough of GCP Auto-Deploy](https://www.youtube.com/watch?v=_TfWdOvQXwU)
 
-### To use my project you can do this
 
-Create a virtualenv
-```python3 -m venv ~/.github-actions-demo```
+![Course1-GCP-CD](https://user-images.githubusercontent.com/58792/107860077-64d04b00-6e0b-11eb-8cf2-7cce40496a46.jpg)
 
-Source it
-```source ~/.github-actions-demo/bin/activate```
+
+## Gotchas/How To
+
+1.  Fork repo
+2.  Setup trigger in Cloud Build
+3. Make sure you enable these settings
+
+![Screen Shot 2020-11-04 at 8 07 18 PM](https://user-images.githubusercontent.com/58792/98184850-610e5d80-1ed9-11eb-9950-6e225675ac2d.png)
+
+*Part of Duke Coursera Course:  Cloud Computing for Data*
